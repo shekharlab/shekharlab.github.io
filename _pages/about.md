@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <i>Chemical and Biomolecular Engineering, University of California Berkeley</i>
 
 profile:
   align: right
@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>101D Gilman Hall</p>
-    <p>University of California, Berkeley</p>
+    <p>UC Berkeley</p>
     <p>Berkeley, CA 94720</p>
 
 news: true # includes a list of news items
