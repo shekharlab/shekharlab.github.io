@@ -9,9 +9,8 @@ profile:
   image: KS_headshot.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>101D Gilman Hall</p>
-    <p>UC Berkeley</p>
-    <p>Berkeley, CA 94720</p>
+    <p>Prof. Karthik Shekhar</p>
+    <p>PhD, MIT 2015</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
