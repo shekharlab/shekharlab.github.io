@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-We study fundamental questions in neuroscience using a combination of mathematical modeling and data-driven approaches. Our current efforts are organized in two broad directions. The firstdirection combines large-scale genomic measurements with data-driven approaches to study neural diversity in various settings. In the second direction, we use continuum physics theory and simulation to understand the initiation and propagation of electrical signaling near neuronal interfaces.
+We study fundamental questions in neuroscience using a combination of mathematical modeling and data-driven approaches. Our current efforts are organized in two broad directions. The <span style="color:blue">first</span> direction combines large-scale genomic measurements with data-driven approaches to study neural diversity in various settings. In the <span style="color:blue">second</span> direction, we use continuum physics theory and simulation to understand the initiation and propagation of electrical signaling near neuronal interfaces.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
