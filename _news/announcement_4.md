@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[Salwan (Sal) Butrus](https://salwanbutrus.github.io) presents his research at the CBE colloquium. Congrats Sal!  
+[Salwan (Sal) Butrus](https://salwanbutrus.github.io) presents his research at the CBE colloquium. Congrats Sal! 
