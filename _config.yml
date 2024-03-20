@@ -225,7 +225,6 @@ exclude:
   - _pages/projects.md
   - _pages/repositories.md
   - _pages/profiles.md
-  - _news/announcement_2.md
   - purgecss.config.js
   - README.md
   - readme_preview/
