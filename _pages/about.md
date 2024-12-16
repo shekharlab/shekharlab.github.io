@@ -23,4 +23,4 @@ We are an small, interdisciplinary team comprised of engineers, physicists, and 
 
 Our primary home is the [Department of Chemical and Biomolecular Engineering (CBE)](https://chemistry.berkeley.edu/cbe). On the Berkeley campus, we are also affiliated with the [Helen Wills Neuroscience Institute](https://live-helen-wills-neuroscience-institute.pantheon.berkeley.edu), [Center for Computational Biology](https://ccb.berkeley.edu), [Berkeley Vision Science](https://vision.berkeley.edu/about-us/vision-science-program/), [Berkeley Biophysics](https://qb3.berkeley.edu/biophysics/), and [QB3](https://qb3.berkeley.edu). We are also part of the [Biological Systems and Engineering](https://biosciences.lbl.gov/bse/) division at the [Lawrence Berkeley National Laboratory (LBL)](https://www.lbl.gov).
 
-Updated: 12/16/2024 (1)
+Updated: 12/16/2024 (2)
