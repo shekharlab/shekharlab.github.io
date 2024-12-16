@@ -13,6 +13,6 @@ nav_order: 6
 4. Fall 2022, CHEM ENG 142 : Chemical Kinetics and Reaction Engineering
 5. Spring 2022, CHEM ENG 150A : Transport Processes
 6. Fall 2021, CHEM ENG 142 : Chemical Kinetics and Reaction Engineering
-7. Spring 2021, CHEM ENG 150A : Transport Processes - [[syllabus]](assets/course_materials/CBE150A_syllabus_Sp2021.pdf)
+7. Spring 2021, CHEM ENG 150A : Transport Processes - [[syllabus]](/assets/course_materials/CBE150A_syllabus_Sp2021.pdf)
 8. Fall 2020, CHEM ENG 142 : Chemical Kinetics and Reaction Engineering
 9. Spring 2020, CHEM ENG 143 : Data Analytics for Chemical Engineers
