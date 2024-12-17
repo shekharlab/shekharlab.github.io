@@ -7,7 +7,7 @@ nav: true
 nav_order: 6
 ---
 
-1. Fall 2024, CHEM ENG 142 : Chemical Kinetics and Reaction Engineering
+1. Fall 2024, CHEM ENG 142 : Chemical Kinetics and Reaction Engineering [[syllabus]](/assets/course_materials/CBE142_Syllabus_Fall24.pdf)
 2. Spring 2024, CHEM ENG 141 : Chemical Engineering Thermodynamics [[syllabus]](/assets/course_materials/CBE141_Syllabus_Sp24.pdf)
 3. Fall 2023, CHEM ENG 142 : Chemical Kinetics and Reaction Engineering  [[syllabus]](/assets/course_materials/CBE142_Syllabus_Fall23.pdf)
 4. Fall 2022, CHEM ENG 142 : Chemical Kinetics and Reaction Engineering
