@@ -21,3 +21,13 @@ nav_order: 6
 - Matthew Po
 - Dario Tommasini
 - Jafar Farhadi
+
+<b>Alumni</b>
+- Joshua Hahn (PhD, CBE 2019-2024) - Postdoctoral Researcher, University of Washington
+- Salwan Butrus (PhD, CBE 2019-2024) - Computational Biologist, Curve Biosciences
+
+<b>UG Alumni</b>
+- Ravtej Kaur (B.S., CBE 2023) - Graduate Student, Princeton
+- Xiaoqi Sun (B.S., CBE 2022) - Graduate Student, MIT
+- Jason Hou (B.S., CBE 2022) - Analytics, BP
+- Srikant Sagireddy (B.S., CBE 2021) - Graduate Student, Stanford 
