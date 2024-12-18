@@ -9,8 +9,9 @@ nav_order: 7
 
 <!-- {% include news.liquid %} -->
 
+<b>Nov 14, 2024</b> Karthik presents at the Physics & QBio Hagoromo Hour at Yale University, New Haven, CT. The title of the talk is ["Nanoscale dynamics of ionic reorganization at biological membrane interfaces"](https://physics.yale.edu/event/physics-qbio-hagoromo-hour-karthik-shekhar-university-california-berkeley).
 
-<b>Nov 2, 2024</b>  Karthik speaks at the UC Berkeley Biophysics Retreat. The title of the talk is "Nanoscale dynamics of ionic reorganization near lipid membrane interfaces".
+<b>Nov 2, 2024</b>  Karthik presents at the UC Berkeley Biophysics Retreat. The title of the talk is "Nanoscale dynamics of ionic reorganization near lipid membrane interfaces".
 
 <b>Oct 27-30, 2024</b> Graduate students Alhad Deshpande and Joshua Fernandes, and postdoc Hyeongjoo Row deliver session talks at the AIChE annual meeting in San Diego, CA
 
