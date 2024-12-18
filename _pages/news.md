@@ -7,7 +7,7 @@ nav: true
 nav_order: 7
 ---
 
-{% include news.liquid %}
+<!-- {% include news.liquid %} -->
 
 
 <b>Nov 2, 2024</b>  Karthik speaks at the UC Berkeley Biophysics Retreat. The title of the talk is "Nanoscale dynamics of ionic reorganization near lipid membrane interfaces".
