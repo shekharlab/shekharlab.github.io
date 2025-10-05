@@ -9,7 +9,15 @@ nav_order: 7
 
 <!-- {% include news.liquid %} -->
 
-<b>Nov 14, 2024</b> Karthik presents at the Physics & QBio Hagoromo Hour at Yale University, New Haven, CT. The title of the talk is ["Nanoscale dynamics of ionic reorganization at biological membrane interfaces"](https://physics.yale.edu/event/physics-qbio-hagoromo-hour-karthik-shekhar-university-california-berkeley).
+<b>May 22, 2025</b> Karthik delivers a webinar hosted by the <u>Glaucoma Research Foundation</u> entitled "Data-driven approaches to Glaucoma"
+
+<b>May 8, 2025</b> Karthik delivers an invited lecture at the <u>Applied Mathematics and Statistics Seminar at Johns Hopkins University</u>. The title of the talk is "Spatiotemporal ionic dynamics at biological membrane interfaces".
+
+<b>April 2, 2025</b> Karthik delivers an invited lecture at the <u>Chemical Engineering Colloquium at Princeton University</u>. The title of the talk is "Organization and Dynamics of Neuronal Systems at Cellular and Molecular Scales".
+
+<b>Jan 27, 2025</b> Karthik delivers an invited lecture at the <u>Chemical Engineering Colloquium at Stanford University</u>. The title of the talk is "Organization and Dynamics of Neuronal Systems at Cellular and Molecular Scales".
+
+<b>Nov 14, 2024</b> Karthik delivers an invited lecture at the <u>Physics & QBio Hagoromo Hour at Yale University</u>, New Haven, CT. The title of the talk is ["Nanoscale dynamics of ionic reorganization at biological membrane interfaces"](https://physics.yale.edu/event/physics-qbio-hagoromo-hour-karthik-shekhar-university-california-berkeley).
 
 <b>Nov 2, 2024</b>  Karthik presents at the <u>UC Berkeley Biophysics Retreat</u>. The title of the talk is "Nanoscale dynamics of ionic reorganization near lipid membrane interfaces".
 
@@ -17,7 +25,7 @@ nav_order: 7
 
 <b>Oct 19, 2024</b> Karthik gives a public talk at the <u>UC Berkeley Homecoming</u>. The title of the talk is "Bridging Theory, Computation, and Experiment in Neuroscience".
 
-<b>Oct 3, 2024</b>  Karthik gives the <u>Visual Sciences Seminar at the University of Texas Southwestern Medical Center</u>, Dallas, TX. The title of the talk is "The Evolution of Neural Diversity in the Vertebrate Retina and the Origin of Cell Type Innovations".
+<b>Oct 3, 2024</b>  Karthik delivers an invited lecture at the <u>Visual Sciences Seminar at the University of Texas Southwestern Medical Center</u>, Dallas, TX. The title of the talk is "The Evolution of Neural Diversity in the Vertebrate Retina and the Origin of Cell Type Innovations".
 
 <b>August 20, 2024</b> Karthik gives an invited talk at the <u>NSF CRCNS PI Meeting</u> in Minneapolis, MN. The title of the talk is "Deciphering the evolution of cell type in the vertebrate retina".
 
