@@ -12,11 +12,15 @@ nav_order: 7
 
 <!-- {% include news.liquid %} -->
 
+<b>December, 2025</b> Dr. Sirui Ning (postdoctoral associate) is awarded the Gordon and Betty Moore fellowship. Congrats Sirui!
+
 <b>Dec 8, 2025</b> Karthik gives an invited talk at the <u>National Institute of Genetics Seminar Series</u> in Mishima (Japan) "Single-cell transcriptomic insights into retinal evolution and degeneration".
 
 <b>Dec 4, 2025</b> Karthik gives an invited presentation at the <u>Molecular Biology Society of Japan (MBSJ) Annual Meeting</u> in  Yokohama (Japan) entitled "Evolutionary and Tinkering in the Vertebrate Retina".
 
 <b>Nov 18, 2025</b> Karthik gives an invited presentation at the <u>Mini Symposium on Evolutionary Neurogenomics at the 2025 Society for Neuroscience Annual Meeting</u> in San Diego CA entitled "The Evolutionary History of Retinal Cell Types".
+
+<b>November, 2025</b> Dario Tommasini receives the NIH F31 fellowship. Congrats Dario!
 
 <b>Oct 20, 2025</b> Karthik gives an invited talk at the <u>Chemical Engineering Seminar at the University of California, Irvine</u> entitled "Multiscale dynamics of neuronal bioelectricity".
 
