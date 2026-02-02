@@ -7,9 +7,20 @@ nav: true
 nav_order: 7
 ---
 
+
+
+
 <!-- {% include news.liquid %} -->
 
-<b>Oct 2, 2025</b> Karthik gives an invited lecture at the <u>Chemical Engineering Seminar at the University of Illinois, Urbana Champaign</u> entitled "Neuronal electricity and its emergent dynamics".
+<b>Dec 8, 2025</b> Karthik gives an invited talk at the <u>National Institute of Genetics Seminar Series</u> in Mishima (Japan) "Single-cell transcriptomic insights into retinal evolution and degeneration".
+
+<b>Dec 4, 2025</b> Karthik gives an invited presentation at the <u>Molecular Biology Society of Japan (MBSJ) Annual Meeting</u> in  Yokohama (Japan) entitled "Evolutionary and Tinkering in the Vertebrate Retina".
+
+<b>Nov 18, 2025</b> Karthik gives an invited presentation at the <u>Mini Symposium on Evolutionary Neurogenomics at the 2025 Society for Neuroscience Annual Meeting</u> in San Diego CA entitled "The Evolutionary History of Retinal Cell Types".
+
+<b>Oct 20, 2025</b> Karthik gives an invited talk at the <u>Chemical Engineering Seminar at the University of California, Irvine</u> entitled "Multiscale dynamics of neuronal bioelectricity".
+
+<b>Oct 2, 2025</b> Karthik gives an invited talk at the <u>Chemical Engineering Seminar at the University of Illinois, Urbana Champaign</u> entitled "Neuronal electricity and its emergent dynamics".
 
 <b>Sep 19, 2025</b> Karthik receives the <u>UC Berkeley Faculty Award for Excellence in Postdoctoral Mentoring</u>. He shares the award with his colleague [Prof. Kranthi K. Mandadapu](https://vspa.berkeley.edu/news/food-music-and-celebration-postdocfest-wraps-npaw-2025-uc-berkeley). 
 
