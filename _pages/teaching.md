@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: lab
 permalink: /teaching/
 title: teaching
 description: Course syllabi and notes

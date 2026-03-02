@@ -1,0 +1,8 @@
+<nav class="site-nav" aria-label="Main navigation">
+  <a href="{{ '/' | relative_url }}" {% if page.permalink == "/" %}class="active"{% endif %}>Home</a>
+  <a href="{{ '/group/' | relative_url }}" {% if page.permalink == "/group/" %}class="active"{% endif %}>People</a>
+  <a href="{{ '/projects/' | relative_url }}" {% if page.permalink == "/projects/" %}class="active"{% endif %}>Research</a>
+  <a href="{{ '/publications/' | relative_url }}" {% if page.permalink == "/publications/" %}class="active"{% endif %}>Publications</a>
+  <a href="{{ '/teaching/' | relative_url }}" {% if page.permalink == "/teaching/" %}class="active"{% endif %}>Teaching</a>
+  <a href="{{ '/news/' | relative_url }}" {% if page.permalink == "/news/" %}class="active"{% endif %}>News</a>
+</nav>

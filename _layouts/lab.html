@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      {% if page.title and page.title != "about" %}
+        {{ page.title }} | {{ site.first_name | default: site.title }}
+      {% else %}
+        {{ site.first_name | default: site.title }}
+      {% endif %}
+    </title>
+    <meta name="description" content="{{ site.description | strip_html | strip_newlines }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,500;0,700;1,500&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/lab.css' | relative_url }}">
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand" href="{{ '/' | relative_url }}">
+          <span class="brand-title">{{ site.first_name | default: site.title }}</span>
+          <span class="brand-subtitle">University of California, Berkeley</span>
+        </a>
+        {% include lab-nav.html %}
+      </header>
+
+      <main class="content-shell">
+        {% if page.permalink == "/" %}
+          <section class="hero reveal">
+            <div class="hero-copy">
+              <h1 class="homepage-title">Prof. Karthik Shekhar's Homepage</h1>
+              <p class="hero-role">
+                John F. Heil, Jr. Assistant Professor<br>
+                <a href="https://chemistry.berkeley.edu/cbe">Department of Chemical and Biomolecular Engineering (CBE)</a>,<br>
+                University of California, Berkeley.
+              </p>
+              <p class="hero-email"><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+              <div class="hero-affiliations">
+                <p><strong>Affiliations</strong></p>
+                <p>Member, <a href="https://hwni.berkeley.edu/home">Helen Wills Neuroscience Institute</a></p>
+                <p>Member, <a href="https://vision.berkeley.edu/about-us/vision-science-program/">Berkeley Vision Science</a></p>
+                <p>Member, <a href="https://ccb.berkeley.edu">Center for Computational Biology</a></p>
+                <p>Member, <a href="https://qb3.berkeley.edu/biophysics/">Berkeley Biophysics</a></p>
+                <p>Member, <a href="https://qb3.berkeley.edu">QB3</a></p>
+                <p>Affiliate, <a href="https://biosciences.lbl.gov/bse/">Biological Systems and Engineering</a> Division, <a href="https://www.lbl.gov">Lawrence Berkeley National Laboratory (LBL)</a></p>
+              </div>
+            </div>
+            {% if page.profile and page.profile.image %}
+              <div class="hero-photo-wrap">
+                <img class="hero-photo" src="{{ '/assets/img/' | append: page.profile.image | relative_url }}" alt="Principal investigator portrait">
+              </div>
+            {% endif %}
+          </section>
+        {% endif %}
+
+        <section class="page-card reveal">
+          {% if page.title and page.permalink != "/" %}
+            <h1 class="page-title">{{ page.title | capitalize }}</h1>
+          {% endif %}
+          <div class="page-content">
+            {{ content }}
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>&copy; {{ "now" | date: "%Y" }} {{ site.first_name | default: site.title }}.</p>
+      </footer>
+    </div>
+  </body>
+</html>

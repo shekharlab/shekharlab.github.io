@@ -205,6 +205,7 @@ kramdown:
 # Includes & excludes
 include: ["_pages"]
 exclude:
+  - migration_backup/
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
@@ -222,7 +223,6 @@ exclude:
   - _pages/about_einstein.md
   - _pages/blog.md
   - _pages/cv.md
-  - _pages/projects.md
   - _pages/repositories.md
   - _news/announcement_2.md
   - _pages/profiles.md
