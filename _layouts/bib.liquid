@@ -44,98 +44,42 @@
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
     <div class="author">
-      {% assign author_array_size = entry.author_array | size %}
-
-      {% assign author_array_limit = author_array_size %}
-      {% if site.max_author_limit and author_array_size > site.max_author_limit %}
-        {% assign author_array_limit = site.max_author_limit %}
-      {% endif %}
-
-      {%- for author in entry.author_array limit: author_array_limit -%}
-        {% assign author_is_self = false %}
+      {% for author in entry.author_array %}
         {%- assign author_last_name = author.last | remove: '¶' | remove: '&' | remove: '*' | remove: '†' | remove: '^' -%}
-        {% if site.scholar.last_name contains author_last_name %}
-          {% if site.scholar.first_name contains author.first %}
-            {% assign author_is_self = true %}
-          {% endif %}
-        {%- endif -%}
-        {% assign coauthor_url = null %}
-        {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
-        {% if site.data.coauthors[clean_last_name] %}
-          {%- for coauthor in site.data.coauthors[clean_last_name] -%}
-            {% if coauthor.firstname contains author.first %}
-              {%- assign coauthor_url = coauthor.url -%}
-              {% break %}
-            {% endif %}
-          {% endfor %}
-        {%- endif -%}
-
-        {%- if forloop.length > 1 -%}
-          {% if forloop.first == false %},&nbsp;{% endif %}
-          {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif -%}
-        {% endif %}
-        {%- if author_is_self -%}
-          <em>
-            {{- author.first }}
-            {{ author.last -}}
-          </em>
-        {%- else -%}
-          {%- if coauthor_url -%}
-            <a href="{{coauthor_url}}">
-              {{- author.first }}
-              {{ author.last -}}
-            </a>
-          {%- else -%}
-            {{ author.first }}
-            {{ author.last }}
-          {% endif %}
-        {%- endif -%}
-      {% endfor %}
-      {%- assign more_authors = author_array_size | minus: author_array_limit -%}
-
-      {%- assign more_authors_hide = more_authors | append: ' more author' -%}
-      {% if more_authors > 0 %}
-        {%- if more_authors > 1 -%}
-          {% assign more_authors_hide = more_authors_hide | append: 's' %}
-        {%- endif -%}
-        {% assign more_authors_show = '' %}
-        {%- for author in entry.author_array offset: author_array_limit -%}
-          {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author.last %}
-          {% unless forloop.last %}
-            {% assign more_authors_show = more_authors_show | append: ', ' %}
-          {% endunless %}
+        {%- assign normalized_first = author.first | replace: '-', ' ' | replace: '.', ' ' -%}
+        {%- assign first_parts = normalized_first | split: ' ' -%}
+        {%- assign initials = '' -%}
+        {%- for part in first_parts -%}
+          {%- assign cleaned_part = part | strip -%}
+          {%- if cleaned_part != '' -%}
+            {%- assign initial = cleaned_part | slice: 0, 1 | upcase -%}
+            {%- assign initials = initials | append: initial | append: '. ' -%}
+          {%- endif -%}
         {%- endfor -%}
-        , and
-        <span
-          class="more-authors"
-          title="click to view {{more_authors_hide}}"
-          onclick="
-              var element = $(this);
-              element.attr('title', '');
-              var more_authors_text = element.text() == '{{more_authors_hide}}' ? '{{more_authors_show}}' : '{{more_authors_hide}}';
-              var cursorPosition = 0;
-              var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
-                if (++cursorPosition == more_authors_text.length){
-                  clearInterval(textAdder);
-                }
-            }, '{{site.more_authors_animation_delay}}');
-          "
-        >
-          {{- more_authors_hide -}}
-        </span>
-      {% endif %}
+        {%- assign initials_stripped = initials | strip -%}
+        {%- assign author_display = author_last_name | append: ', ' | append: initials_stripped -%}
+        {%- assign is_corresponding = false -%}
+        {% if entry.corresponding and entry.corresponding contains author_display %}
+          {%- assign is_corresponding = true -%}
+        {% endif %}
+        {% if author_last_name == 'Shekhar' and initials_stripped == 'K.' %}
+          <strong>{{ author_display }}</strong>{% if is_corresponding %}<sup>&#8225;</sup>{% endif %}
+        {% else %}
+          {{ author_display }}{% if is_corresponding %}<sup>&#8225;</sup>{% endif %}
+        {% endif %}
+        {% unless forloop.last %}; {% endunless %}
+      {% endfor %}
     </div>
 
     <!-- Journal/Book title and date -->
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
     {% if entry.type == 'article' %}
-      {% capture entrytype %}<em>{{entry.journal}}</em>{% endcapture %}
+      {% capture entrytype %}<strong><em>{{entry.journal}}</em></strong>{% endcapture %}
     {% elsif proceedings contains entry.type %}
-      {% capture entrytype %}<em>In {{entry.booktitle}}</em> {% endcapture %}
+      {% capture entrytype %}<strong><em>In {{entry.booktitle}}</em></strong> {% endcapture %}
     {% elsif thesis contains entry.type %}
-      {% capture entrytype %}<em>{{entry.school}}</em> {% endcapture %}
+      {% capture entrytype %}<strong><em>{{entry.school}}</em></strong> {% endcapture %}
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
@@ -159,18 +103,33 @@
       {% if entry.abstract %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       {% endif %}
-      {% if entry.arxiv %}
-        <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
-      {% endif %}
-      {% if entry.bibtex_show %}
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      {% endif %}
       {% if entry.html %}
         {% if entry.html contains '://' %}
-          <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
+          <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">Paper</a>
         {% else %}
-          <a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
+          <a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Paper</a>
         {% endif %}
+      {% endif %}
+      {% assign preprint_url = '' %}
+      {% assign preprint_label = '' %}
+      {% if entry.arxiv %}
+        {% assign preprint_url = entry.arxiv | prepend: 'https://arxiv.org/abs/' %}
+        {% assign preprint_label = 'arXiv' %}
+      {% elsif entry.eprint %}
+        {% assign preprint_url = entry.eprint | prepend: 'https://arxiv.org/abs/' %}
+        {% assign preprint_label = 'arXiv' %}
+      {% elsif entry.html and entry.html contains 'biorxiv.org' %}
+        {% assign preprint_url = entry.html %}
+        {% assign preprint_label = 'bioRxiv' %}
+      {% elsif entry.journal and entry.journal contains 'bioRxiv' and entry.html %}
+        {% assign preprint_url = entry.html %}
+        {% assign preprint_label = 'bioRxiv' %}
+      {% elsif entry.html and entry.html contains 'arxiv.org' %}
+        {% assign preprint_url = entry.html %}
+        {% assign preprint_label = 'arXiv' %}
+      {% endif %}
+      {% if preprint_url != '' %}
+        <a href="{{ preprint_url }}" class="btn btn-sm z-depth-0" role="button">{{ preprint_label }}</a>
       {% endif %}
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
@@ -275,15 +234,6 @@
       <!-- Hidden abstract block -->
       <div class="abstract hidden">
         <p>{{ entry.abstract }}</p>
-      </div>
-    {% endif %}
-
-    {% if entry.bibtex_show %}
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        {% highlight bibtex %}
-        {{- entry.bibtex | hideCustomBibtex -}}
-        {% endhighlight %}
       </div>
     {% endif %}
 

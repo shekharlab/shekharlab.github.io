@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: lab
 permalink: /group/
-title: group
+title: people
 description: Coworkers (Current and Alumni)
 nav: true
 nav_order: 6
