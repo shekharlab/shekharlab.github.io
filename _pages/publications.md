@@ -14,7 +14,34 @@ nav_order: 2
 
 </div>
 
+<p><sup>*</sup> co-first author</p>
 <p><sup>&#8225;</sup> corresponding author</p>
+
+<style>
+  #publications-list .oa-citation-badge {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.82rem;
+    border: 1px solid #d7d3c7;
+    border-radius: 6px;
+    overflow: hidden;
+    text-decoration: none;
+    margin-left: 0.4rem;
+    vertical-align: middle;
+  }
+
+  #publications-list .oa-citation-label {
+    background: #f4f0df;
+    color: #30343b;
+    padding: 0.12rem 0.4rem;
+  }
+
+  #publications-list .oa-citation-count {
+    background: #3f73d8;
+    color: #fff;
+    padding: 0.12rem 0.42rem;
+  }
+</style>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
@@ -32,6 +59,87 @@ nav_order: 2
       marker.className = "pub-number";
       marker.textContent = number + ".";
       item.prepend(marker);
+    });
+
+    const mailto = "{{ site.email | escape }}";
+
+    function extractDoiFromUrl(url) {
+      if (!url) return "";
+      const match = decodeURIComponent(url).match(/10\.\d{4,9}\/[-._;()/:A-Z0-9]+/i);
+      return match ? match[0].replace(/[)>.,;]+$/, "") : "";
+    }
+
+    function normalizeTitle(value) {
+      return (value || "")
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, " ")
+        .trim();
+    }
+
+    function renderCitationBadge(node, count, url) {
+      const link = document.createElement("a");
+      link.className = "oa-citation-badge";
+      link.href = url || "#";
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+
+      const label = document.createElement("span");
+      label.className = "oa-citation-label";
+      label.textContent = "citations";
+
+      const number = document.createElement("span");
+      number.className = "oa-citation-count";
+      number.textContent = String(count);
+
+      link.append(label, number);
+      node.replaceWith(link);
+    }
+
+    async function lookupCitationCount(node) {
+      const doi = (node.dataset.doi || "").trim() || extractDoiFromUrl(node.dataset.html || "");
+      const title = (node.dataset.title || "").trim();
+
+      const params = new URLSearchParams({ "per-page": "5", mailto });
+      if (doi) {
+        params.set("filter", `doi:https://doi.org/${doi.toLowerCase()}`);
+      } else {
+        params.set("search", title);
+      }
+
+      try {
+        const response = await fetch(`https://api.openalex.org/works?${params.toString()}`);
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const data = await response.json();
+        const results = data.results || [];
+        if (!results.length) {
+          node.textContent = "citations n/a";
+          return;
+        }
+
+        let best = results[0];
+        if (!doi) {
+          const wanted = normalizeTitle(title);
+          for (const result of results) {
+            const candidate = normalizeTitle(result.display_name || "");
+            if (candidate === wanted || candidate.startsWith(wanted)) {
+              best = result;
+              break;
+            }
+          }
+        }
+
+        const count = Number.isFinite(best.cited_by_count) ? best.cited_by_count : 0;
+        renderCitationBadge(node, count, best.id || "");
+      } catch (_err) {
+        node.textContent = "citations n/a";
+      }
+    }
+
+    const citationNodes = Array.from(
+      document.querySelectorAll("#publications-list .oa-citation")
+    );
+    citationNodes.forEach((node) => {
+      lookupCitationCount(node);
     });
   });
 </script>

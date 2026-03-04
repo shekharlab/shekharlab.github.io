@@ -245,6 +245,10 @@ body {
   color: var(--accent);
 }
 
+.page-content .arxiv-meta {
+  color: var(--muted);
+}
+
 .page-content .project-grid {
   margin-top: 0.7rem;
   display: grid;
