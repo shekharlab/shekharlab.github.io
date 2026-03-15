@@ -25,4 +25,4 @@ Our overarching goal is to understand the organization, development, and dynamic
 
 - Development and evolution of neural diversity
 - Spatial patterning of neuronal cell types in health and disease
-- Bioelectric and electromechanical mechanisms at the nanoscale
+- Bioelectric and electromechanical mechanisms at the nanoscale. This work is a very close collaboration with [Prof. Kranthi Mandadapu](https://mandadapu-group.github.io).
