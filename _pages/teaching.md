@@ -6,8 +6,8 @@ description: Course syllabi and notes
 nav: true
 nav_order: 6
 ---
-12. Spring 2026, CHEM ENG 141 : Chemical Engineering Thermodynamics
-11. Fall 2025, CHEM ENG 142 : Chemical Kinetics and Reaction Engineering
+12. Spring 2026, CHEM ENG 141 : Chemical Engineering Thermodynamics (with Prof. Laura Hirshfield)
+11. Fall 2025, CHEM ENG 142 : Chemical Kinetics and Reaction Engineering (with Prof. Kranthi K. Mandadapu)
 10. Spring 2025, CHEM ENG 141 : Chemical Engineering Thermodynamics
 9. Fall 2024, CHEM ENG 142 : Chemical Kinetics and Reaction Engineering [[syllabus]](/assets/course_materials/CBE142_Syllabus_Fall24.pdf)
 8. Spring 2024, CHEM ENG 141 : Chemical Engineering Thermodynamics [[syllabus]](/assets/course_materials/CBE141_Syllabus_Sp24.pdf)
