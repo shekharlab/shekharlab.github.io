@@ -18,21 +18,3 @@ In the second direction, we use theory and simulation to understand electrochemi
 We are an interdisciplinary team of engineers, physicists, and neuroscientists. Our research is curiosity-driven, and we believe the most important scientific questions require a confluence of ideas and methods across fields. We maintain close collaborations with neurobiologists, vision scientists, molecular biologists, clinicians, and theorists.
 
 Our primary home is the [Department of Chemical and Biomolecular Engineering (CBE)](https://chemistry.berkeley.edu/cbe). On the Berkeley campus, we are also affiliated with the [Helen Wills Neuroscience Institute](https://hwni.berkeley.edu/home), [Center for Computational Biology](https://ccb.berkeley.edu), [Berkeley Vision Science](https://vision.berkeley.edu/about-us/vision-science-program/), [Berkeley Biophysics](https://qb3.berkeley.edu/biophysics/), and [QB3](https://qb3.berkeley.edu). We are also part of the [Biological Systems and Engineering](https://biosciences.lbl.gov/bse/) division at the [Lawrence Berkeley National Laboratory (LBL)](https://www.lbl.gov).
-
-<div class="project-grid">
-{% assign sorted_projects = site.projects | sort: "importance" %}
-{% for project in sorted_projects %}
-  <article class="project-card">
-    {% if project.img %}
-      <img src="{{ project.img | relative_url }}" alt="{{ project.title }} preview">
-    {% endif %}
-    <div class="project-body">
-      <h3>{{ project.title }}</h3>
-      {% if project.description %}
-        <p>{{ project.description }}</p>
-      {% endif %}
-      <a href="{{ project.url | relative_url }}">Read more</a>
-    </div>
-  </article>
-{% endfor %}
-</div>
