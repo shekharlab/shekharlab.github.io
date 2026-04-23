@@ -11,6 +11,9 @@ nav_order: 7
   <details class="news-year" open>
     <summary>2026</summary>
     <ul class="news-list">
+      <li><b>April, 2026</b> Joshua Fernandes and Kushal Nimkar deliver their graduating talks at the CBE Spring Colloquium.</li>
+      <li><b>April 20, 2026</b> Andrew Ly joins the group as a graduate student. Weclome Andrew!</li>
+      <li><b>March 31, 2026</b> Karthik gives the Department of Biochemistry and Molecular Medicine Seminar at West Virginia University.</li>
       <li><b>Feb 16, 2026</b> Karthik is awarded a Sloan Research Fellowship in Neuroscience. See the <a href="https://qb3.berkeley.edu/news/karthik-shekhar-named-2026-sloan-fellow/" target="_blank" rel="noopener noreferrer">UC Berkeley press release</a>.</li>
       <li><b>Jan 16, 2026</b> Karthik gives the National Institute of Theory and Mathematics in Biology (NITMB) seminar in Chicago. His talk is entitled <i>Bioelectrical dynamics at membrane interfaces</i>. You can see the <a href="https://www.youtube.com/watch?v=GpdmXt8LqEw" target="_blank" rel="noopener noreferrer">video</a> here.</li>
     </ul>
