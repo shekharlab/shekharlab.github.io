@@ -12,6 +12,7 @@ nav_order: 7
     <summary>2026</summary>
     <ul class="news-list">
       <li><b>April, 2026</b> Joshua Fernandes and Kushal Nimkar deliver their graduating talks at the CBE Spring Colloquium.</li>
+      <li><b>April 28, 2026</b> Karthik receives the <a href="https://www.dreyfus.org/2026-camille-dreyfus-teacher-scholar-awards/" target="_blank" rel="noopener noreferrer">Camille-Dreyfus Teacher Scholar Award</a>.</li>
       <li><b>April 20, 2026</b> Andrew Ly joins the group as a graduate student. Weclome Andrew!</li>
       <li><b>March 31, 2026</b> Karthik gives the Department of Biochemistry and Molecular Medicine Seminar at West Virginia University.</li>
       <li><b>Feb 16, 2026</b> Karthik is awarded a Sloan Research Fellowship in Neuroscience. See the <a href="https://qb3.berkeley.edu/news/karthik-shekhar-named-2026-sloan-fellow/" target="_blank" rel="noopener noreferrer">UC Berkeley press release</a>.</li>
