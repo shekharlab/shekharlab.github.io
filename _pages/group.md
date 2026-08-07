@@ -90,13 +90,6 @@ nav_order: 6
         <p>Email: <a href="mailto:sanket_biswas@berkeley.edu">sanket_biswas@berkeley.edu</a></p>
       </div>
 
-      <div class="person-entry">
-        <p><strong>Andrew Ly</strong> <span class="person-note">(2026-)</span></p>
-        <p>BS, Chemical Engineering, University of California Davis</p>
-        <p>Email: <a href="mailto:lydinhandrew@berkeley.edu">lydinhandrew@berkeley.edu</a></p>
-      </div>
-
-
     </div>
   </div>
 
