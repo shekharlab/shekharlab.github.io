@@ -20,6 +20,7 @@ nav_order: 6
         <p><strong>Dr. Hyeongjoo Row</strong></p>
         <p>PhD, Chemical Engineering, California Institute of Technology (2022)</p>
         <p>Email: <a href="mailto:hrow@berkeley.edu">hrow@berkeley.edu</a></p>
+        <p>Website: <a href="row-research.github.io">row-research.github.io</a> </p>
       </div>
 
       <div class="person-entry">
