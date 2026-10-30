@@ -27,6 +27,7 @@ nav_order: 6
         <p><strong>Dr. Sirui Ning</strong></p>
         <p>PhD, Theoretical Physics, University of Oxford (2024)</p>
         <p>Email: <a href="mailto:sirui.ning@berkeley.edu">sirui.ning@berkeley.edu</a></p>
+        <p>Website: <a href="https://siruining-deep.github.io">https://siruining-deep.github.io</a></p>
       </div>
 
       <div class="person-entry">
