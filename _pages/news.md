@@ -11,6 +11,8 @@ nav_order: 7
   <details class="news-year" open>
     <summary>2026</summary>
     <ul class="news-list">
+      <li><b>July 23, 2026</b> Karthik is awarded the <a href="https://chemistry.berkeley.edu/news/philomathia-prize-advances-novel-work-physics-bioelectricity" target="_blank" rel="noopener noreferrer">Philomathia Prize</a>. This supports the work jointly being pursued with <a href="https://mandadapu-group.github.io" target="_blank" rel="noopener noreferrer">Prof. Kranthi Mandadapu</a>.</li>
+      <li><b>July 1, 2026</b> Karthik is promoted to Associate Professor in Chemical and Biomolecular Engineering at UC Berkeley.</li>
       <li><b>April, 2026</b> Joshua Fernandes and Kushal Nimkar deliver their graduating talks at the CBE Spring Colloquium.</li>
       <li><b>April 28, 2026</b> Karthik receives the <a href="https://www.dreyfus.org/2026-camille-dreyfus-teacher-scholar-awards/" target="_blank" rel="noopener noreferrer">Camille-Dreyfus Teacher Scholar Award</a>.</li>
       <li><b>April 20, 2026</b> Andrew Ly joins the group as a graduate student. Weclome Andrew!</li>
