@@ -419,6 +419,70 @@ body {
   font-weight: 500;
 }
 
+.page-content .lab-philosophy {
+  margin: 0.2rem 0 0.6rem;
+  font-family: "Spectral", Georgia, serif;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: var(--ink);
+}
+
+.page-content .lab-preamble {
+  margin-bottom: 1.4rem;
+}
+
+.page-content .research-area {
+  border-top: 1px solid var(--line);
+  padding-top: 0.4rem;
+  margin-bottom: 1.4rem;
+}
+
+.page-content .research-area h2 {
+  color: var(--accent);
+}
+
+.page-content .spotlight {
+  margin: 1.1rem 0;
+  padding: 0.9rem 1rem;
+  border-left: 4px solid var(--accent-2);
+  background: #fff8ef;
+  border-radius: 0 10px 10px 0;
+}
+
+.page-content .spotlight figure {
+  margin: 0 0 0.7rem;
+}
+
+.page-content .spotlight img {
+  display: block;
+  width: 100%;
+  max-height: 460px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.page-content .spotlight figcaption {
+  margin-top: 0.35rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.page-content .spotlight p {
+  margin: 0;
+}
+
+.page-content .research-collab {
+  font-size: 0.92rem;
+  color: var(--muted);
+}
+
+.page-content .research-homes {
+  border-top: 1px solid var(--line);
+  padding-top: 0.9rem;
+  font-size: 0.92rem;
+}
+
 .site-footer {
   margin-top: 1rem;
   padding: 0.7rem 0.1rem 0;

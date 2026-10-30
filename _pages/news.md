@@ -12,11 +12,13 @@ nav_order: 7
     <summary>2026</summary>
     <ul class="news-list">
       <li><b>Oct, 2026</b> Johannes Immanuel Winther Kristensen joins the group as a graduate student, jointly advised with <a href="https://mandadapu-group.github.io" target="_blank" rel="noopener noreferrer">Prof. Kranthi Mandadapu</a>. Welcome Johannes!</li>
+      <li><b>Sep 12, 2026</b> Dr. Sirui Ning receives the Berkeley Postdoc Achievement Award. Congrats Sirui!</li>
       <li><b>Aug 26, 2026</b> Karthik gives an invited seminar at the <u>Georgia Institute of Technology</u> entitled "Bioelectrical Transport Phenomena".</li>
       <li><b>July 23, 2026</b> Karthik is awarded the <a href="https://chemistry.berkeley.edu/news/philomathia-prize-advances-novel-work-physics-bioelectricity" target="_blank" rel="noopener noreferrer">Philomathia Prize</a>. This supports the work jointly being pursued with <a href="https://mandadapu-group.github.io" target="_blank" rel="noopener noreferrer">Prof. Kranthi Mandadapu</a>.</li>
       <li><b>July, 2026</b> Karthik gives an invited keynote at the <u>NNRL Retreat</u> in Washington, DC entitled "On the evolution of the retina".</li>
       <li><b>July 1, 2026</b> Karthik is promoted to Associate Professor in Chemical and Biomolecular Engineering at UC Berkeley.</li>
       <li><b>May, 2026</b> Karthik gives an invited talk at the <u>Chemical Engineering Seminar at the University of California, Davis</u> entitled "Bioelectric transport phenomena".</li>
+      <li><b>May 7, 2026</b> Matthew Po wins the Excellence in Teaching Award. Congrats Matthew!</li>
       <li><b>April, 2026</b> Joshua Fernandes and Kushal Nimkar deliver their graduating talks at the CBE Spring Colloquium.</li>
       <li><b>April 28, 2026</b> Karthik receives the <a href="https://www.dreyfus.org/2026-camille-dreyfus-teacher-scholar-awards/" target="_blank" rel="noopener noreferrer">Camille-Dreyfus Teacher Scholar Award</a>.</li>
       <li><b>March 31, 2026</b> Karthik gives the Department of Biochemistry and Molecular Medicine Seminar at West Virginia University.</li>
