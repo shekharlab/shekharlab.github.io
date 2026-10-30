@@ -31,6 +31,8 @@ Our current efforts focus on three areas, described on our [research page]({{ '/
 - Spatial biology of degeneration and aging
 - Microscopic bioelectricity, in very close collaboration with [Prof. Kranthi Mandadapu](https://mandadapu-group.github.io)
 
+If you are interested in joining the group, please [click here]({{ '/join/' | relative_url }}).
+
 ## Biography
 
 I grew up in Mumbai, India, and studied chemical engineering at [IIT Bombay](https://www.iitb.ac.in). I received my PhD in chemical engineering from [MIT](https://cheme.mit.edu), working with [Prof. Arup Chakraborty](https://imes.mit.edu/people/chakraborty-arup) on the statistical physics of viral evolution and immune diversity. As a postdoctoral fellow at the [Broad Institute of MIT and Harvard](https://www.broadinstitute.org) with [Prof. Aviv Regev](https://en.wikipedia.org/wiki/Aviv_Regev), I turned to neuroscience, using single-cell genomics to build cell atlases of the retina. There I began a long and productive collaboration with [Prof. Joshua Sanes](https://www.mcb.harvard.edu/directory/joshua-sanes/). I joined the Berkeley faculty in 2020.
