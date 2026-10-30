@@ -91,6 +91,11 @@ nav_order: 6
         <p>Email: <a href="mailto:sanket_biswas@berkeley.edu">sanket_biswas@berkeley.edu</a></p>
       </div>
 
+      <div class="person-entry">
+        <p><strong>Johannes Immanuel Winther Kristensen</strong> <span class="person-note">(2026-)</span></p>
+        <p>Co-advisor: Prof. Kranthi Mandadapu</p>
+      </div>
+
     </div>
   </div>
 

@@ -11,12 +11,16 @@ nav_order: 7
   <details class="news-year" open>
     <summary>2026</summary>
     <ul class="news-list">
+      <li><b>Oct, 2026</b> Johannes Immanuel Winther Kristensen joins the group as a graduate student, jointly advised with <a href="https://mandadapu-group.github.io" target="_blank" rel="noopener noreferrer">Prof. Kranthi Mandadapu</a>. Welcome Johannes!</li>
+      <li><b>Aug 26, 2026</b> Karthik gives an invited seminar at the <u>Georgia Institute of Technology</u> entitled "Bioelectrical Transport Phenomena".</li>
       <li><b>July 23, 2026</b> Karthik is awarded the <a href="https://chemistry.berkeley.edu/news/philomathia-prize-advances-novel-work-physics-bioelectricity" target="_blank" rel="noopener noreferrer">Philomathia Prize</a>. This supports the work jointly being pursued with <a href="https://mandadapu-group.github.io" target="_blank" rel="noopener noreferrer">Prof. Kranthi Mandadapu</a>.</li>
+      <li><b>July, 2026</b> Karthik gives an invited keynote at the <u>NNRL Retreat</u> in Washington, DC entitled "On the evolution of the retina".</li>
       <li><b>July 1, 2026</b> Karthik is promoted to Associate Professor in Chemical and Biomolecular Engineering at UC Berkeley.</li>
+      <li><b>May, 2026</b> Karthik gives an invited talk at the <u>Chemical Engineering Seminar at the University of California, Davis</u> entitled "Bioelectric transport phenomena".</li>
       <li><b>April, 2026</b> Joshua Fernandes and Kushal Nimkar deliver their graduating talks at the CBE Spring Colloquium.</li>
       <li><b>April 28, 2026</b> Karthik receives the <a href="https://www.dreyfus.org/2026-camille-dreyfus-teacher-scholar-awards/" target="_blank" rel="noopener noreferrer">Camille-Dreyfus Teacher Scholar Award</a>.</li>
-      <li><b>April 20, 2026</b> Andrew Ly joins the group as a graduate student. Weclome Andrew!</li>
       <li><b>March 31, 2026</b> Karthik gives the Department of Biochemistry and Molecular Medicine Seminar at West Virginia University.</li>
+      <li><b>March, 2026</b> Karthik gives an invited talk at the <u>Probing Human Disease using Single-Cell Technologies</u> meeting in Cancún, Mexico entitled "Single-cell genomic insights into retinal neuroprotection".</li>
       <li><b>Feb 16, 2026</b> Karthik is awarded a Sloan Research Fellowship in Neuroscience. See the <a href="https://qb3.berkeley.edu/news/karthik-shekhar-named-2026-sloan-fellow/" target="_blank" rel="noopener noreferrer">UC Berkeley press release</a>.</li>
       <li><b>Jan 16, 2026</b> Karthik gives the National Institute of Theory and Mathematics in Biology (NITMB) seminar in Chicago. His talk is entitled <i>Bioelectrical dynamics at membrane interfaces</i>. You can see the <a href="https://www.youtube.com/watch?v=GpdmXt8LqEw" target="_blank" rel="noopener noreferrer">video</a> here.</li>
     </ul>
@@ -30,6 +34,7 @@ nav_order: 7
       <li><b>Dec 4, 2025</b> Karthik gives an invited presentation at the <u>Molecular Biology Society of Japan (MBSJ) Annual Meeting</u> in Yokohama (Japan) entitled "Evolutionary and Tinkering in the Vertebrate Retina".</li>
       <li><b>Nov 18, 2025</b> Karthik gives an invited presentation at the <u>Mini Symposium on Evolutionary Neurogenomics at the 2025 Society for Neuroscience Annual Meeting</u> in San Diego CA entitled "The Evolutionary History of Retinal Cell Types".</li>
       <li><b>Nov, 2025</b> Dario Tommasini receives the NIH F31 fellowship. Congrats Dario!</li>
+      <li><b>Oct, 2025</b> Karthik gives an invited talk at the <u>Simons Workshop on Cortical Development</u> in New York City.</li>
       <li><b>Oct 20, 2025</b> Karthik gives an invited talk at the <u>Chemical Engineering Seminar at the University of California, Irvine</u> entitled "Multiscale dynamics of neuronal bioelectricity".</li>
       <li><b>Oct 2, 2025</b> Karthik gives an invited talk at the <u>Chemical Engineering Seminar at the University of Illinois, Urbana Champaign</u> entitled "Neuronal electricity and its emergent dynamics".</li>
       <li><b>Sep 19, 2025</b> Karthik receives the <u>UC Berkeley Faculty Award for Excellence in Postdoctoral Mentoring</u>. He shares the award with his colleague [Prof. Kranthi K. Mandadapu](https://vspa.berkeley.edu/news/food-music-and-celebration-postdocfest-wraps-npaw-2025-uc-berkeley).</li>
