@@ -52,9 +52,11 @@ nav_order: 3
 
 <p>Every thought, heartbeat, and sensation begins with ions flowing through channels in a membrane only a few nanometers thick. Yet the textbook picture of neuronal electricity, inherited from Hodgkin and Huxley in the 1950s, treats the membrane as a capacitor and channels as resistors, averaging away the physics around each channel. We start with a simple question: what happens, physically, when a single ion channel opens?</p>
 
+<p>This line of research is a close collaboration with <a href="https://mandadapu-group.github.io">Prof. Kranthi Mandadapu</a> (UC Berkeley). It emerged from our discussions during the COVID-19 pandemic, and the work is carried out jointly by our two groups.</p>
+
 <p>Our theory shows that current through a channel creates a spatially structured, evolving voltage disturbance whose reach is set by the membrane's dielectric properties, geometry, and confinement. It also clarifies when the classical circuit picture emerges (<a href="https://doi.org/10.1103/PhysRevE.111.064412">Farhadi et al., <i>Phys. Rev. E</i> 2025</a>; <a href="https://journals.aps.org/prresearch/abstract/10.1103/m446-4lnj">Fernandes et al., <i>Phys. Rev. Research</i> 2026</a>). Electrical and mechanical forces are intertwined: membrane thickness and surface charge govern how electric fields destabilize a bilayer (<a href="https://arxiv.org/abs/2603.23477">Ning et al., <i>arXiv</i> 2026</a>).</p>
 
-<p>If neighboring channels feel each other through these fields, the membrane becomes a many-body system. Just as the many forms of ice cannot be deduced from a single water molecule, channel ensembles may support collective bioelectric phases that single-channel models miss. Supported by the <a href="https://chemistry.berkeley.edu/news/philomathia-prize-advances-novel-work-physics-bioelectricity">Philomathia Prize</a>, we are developing a theory of these bioelectric phase transitions and asking how they shape excitability and disease.</p>
+<p>If neighboring channels feel each other through these fields, the membrane becomes a many-body system. Just as the many forms of ice cannot be deduced from a single water molecule, channel ensembles may support collective bioelectric phases that single-channel models miss. We are now developing a theory of these bioelectric phase transitions and asking how they shape excitability and disease.</p>
 
 <div class="spotlight">
   <figure>
