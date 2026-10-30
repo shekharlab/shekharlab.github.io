@@ -117,6 +117,7 @@ nav_order: 6
       <div class="person-entry">
         <p><strong>Kushal Nimkar</strong> <span class="person-note">Graduate Student (Chemical and Biomolecular Engineering)</span></p>
         <p>Current Affiliation: Computational Scientist III, Genentech</p>
+        <p><em>Thesis: Spatial Determinants of Neural Vulnerability in the Retina and Optic Nerve</em></p>
       </div>
 
       <div class="person-entry">
