@@ -61,12 +61,6 @@ nav_order: 6
       </div>
 
       <div class="person-entry">
-        <p><strong>Kushal Nimkar</strong> <span class="person-note">(2021-)</span></p>
-        <p>BS, Chemical Engineering, University of California Los Angeles</p>
-        <p>Email: <a href="mailto:kushalnimkar@berkeley.edu">kushalnimkar@berkeley.edu</a></p>
-      </div>
-
-      <div class="person-entry">
         <p><strong>Matthew Po</strong> <span class="person-note">(2022-)</span></p>
         <p>BS, Chemical Engineering, University of Florida</p>
         <p>Email: <a href="mailto:matthew.po@berkeley.edu">matthew.po@berkeley.edu</a></p>
@@ -119,7 +113,13 @@ nav_order: 6
       </div>
 
       <div class="person-entry">
+        <p><strong>Kushal Nimkar</strong> <span class="person-note">Graduate Student (Chemical and Biomolecular Engineering)</span></p>
+        <p>Current Affiliation: Computational Scientist III, Genentech</p>
+      </div>
+
+      <div class="person-entry">
         <p><strong>Alhad Deshpande</strong> <span class="person-note">Graduate Student (Chemical and Biomolecular Engineering)</span></p>
+        <p>Current Affiliation: Computational Scientist, Applied Materials</p>
         <p><em>Thesis: Odd Transport Phenomena of Chiral Fluids</em></p>
       </div>
 
