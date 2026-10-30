@@ -143,6 +143,11 @@ nav_order: 6
     <h2>Undergraduate Alumni</h2>
     <div class="people-list">
       <div class="person-entry">
+        <p><strong>Anthea Guo</strong> <span class="person-note">BS, Electrical Engineering and Computer Science (2026)</span></p>
+        <p>Current Affiliation: Chief Technology Officer, Lumeria</p>
+      </div>
+
+      <div class="person-entry">
         <p><strong>Ravtej Kaur</strong> <span class="person-note">BS, Chemical Engineering (2023)</span></p>
         <p>Current Affiliation: Graduate Student, Princeton University</p>
       </div>
@@ -160,6 +165,11 @@ nav_order: 6
       <div class="person-entry">
         <p><strong>Srikant Sagireddy</strong> <span class="person-note">BS, Chemical Engineering (2021)</span></p>
         <p>Current Affiliation: Graduate Student, Stanford University</p>
+      </div>
+
+      <div class="person-entry">
+        <p><strong>Vishruth Dinesh</strong> <span class="person-note">High School Student</span></p>
+        <p>Current Affiliation: Undergraduate Student, University of Pennsylvania</p>
       </div>
     </div>
   </div>

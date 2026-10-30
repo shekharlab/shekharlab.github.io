@@ -6,6 +6,8 @@ description: Course syllabi and notes
 nav: true
 nav_order: 6
 ---
+14. Spring 2027, CHEM ENG 230 : Mathematical Methods in Chemical Engineering (graduate)
+13. Fall 2026, CHEM ENG 250 : Transport Processes (graduate)
 12. Spring 2026, CHEM ENG 141 : Chemical Engineering Thermodynamics (with Prof. Laura Hirshfield)
 11. Fall 2025, CHEM ENG 142 : Chemical Kinetics and Reaction Engineering (with Prof. Kranthi K. Mandadapu)
 10. Spring 2025, CHEM ENG 141 : Chemical Engineering Thermodynamics
