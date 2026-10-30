@@ -71,6 +71,7 @@ nav_order: 6
         <p><strong>Dario Tommasini</strong> <span class="person-note">(2022-)</span></p>
         <p>BS, Neuroscience, University of California Los Angeles</p>
         <p>Email: <a href="mailto:dtommasini@berkeley.edu">dtommasini@berkeley.edu</a></p>
+        <p>Website: <a href="https://dariotommasini.github.io">https://dariotommasini.github.io</a></p>
       </div>
 
       <div class="person-entry">
