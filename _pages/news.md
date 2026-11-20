@@ -11,6 +11,7 @@ nav_order: 7
   <details class="news-year" open>
     <summary>2026</summary>
     <ul class="news-list">
+      <li><b>Nov 5, 2026</b> <a href="https://gather.berkeley.edu/event/philomathia-symposium-2026/" target="_blank" rel="noopener noreferrer">Philomathia Day 2026</a>, organized by campus, highlights our ongoing research on bioelectricity with <a href="https://mandadapu-group.github.io" target="_blank" rel="noopener noreferrer">Prof. Kranthi Mandadapu</a>. Talks by Karthik, Kranthi, Steve Brohawn, Na Ji, Olga Dudko, Bill Jia, Kevin Bender, and Christoph Haselwandter.</li>
       <li><b>Oct, 2026</b> Johannes Immanuel Winther Kristensen joins the group as a graduate student, jointly advised with <a href="https://mandadapu-group.github.io" target="_blank" rel="noopener noreferrer">Prof. Kranthi Mandadapu</a>. Welcome Johannes!</li>
       <li><b>Sep 12, 2026</b> Dr. Sirui Ning receives the Berkeley Postdoc Achievement Award. Congrats Sirui!</li>
       <li><b>Aug 26, 2026</b> Karthik gives an invited seminar at the <u>Georgia Institute of Technology</u> entitled "Bioelectrical Transport Phenomena".</li>
