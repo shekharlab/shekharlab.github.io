@@ -11,6 +11,8 @@ nav_order: 7
   <details class="news-year" open>
     <summary>2026</summary>
     <ul class="news-list">
+      <li><b>Nov 13, 2026</b> Karthik gives the Molecular Biology and Genetics (MBG) Seminar at <u>Cornell University</u>.</li>
+      <li><b>Nov 12, 2026</b> Karthik speaks in the Ophthalmology Distinguished Speaker Seminar Series at the <u>University of Utah</u>.</li>
       <li><b>Nov 5, 2026</b> <a href="https://gather.berkeley.edu/event/philomathia-symposium-2026/" target="_blank" rel="noopener noreferrer">Philomathia Day 2026</a>, organized by campus, highlights our ongoing research on bioelectricity with <a href="https://mandadapu-group.github.io" target="_blank" rel="noopener noreferrer">Prof. Kranthi Mandadapu</a>. Talks by Karthik, Kranthi, Steve Brohawn, Na Ji, Olga Dudko, Bill Jia, Kevin Bender, and Christoph Haselwandter.</li>
       <li><b>Oct, 2026</b> Johannes Immanuel Winther Kristensen joins the group as a graduate student, jointly advised with <a href="https://mandadapu-group.github.io" target="_blank" rel="noopener noreferrer">Prof. Kranthi Mandadapu</a>. Welcome Johannes!</li>
       <li><b>Sep 12, 2026</b> Dr. Sirui Ning receives the Berkeley Postdoc Achievement Award. Congrats Sirui!</li>
